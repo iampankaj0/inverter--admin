@@ -1,0 +1,126 @@
+
+
+/* Electric Blue: #
+
+Hot Pink: #f16775
+
+Shocking Yellow: #fee36e
+
+Chartreuse-ish: #ceb92c
+
+Darkest Gray: #2a2a2a */
+
+
+
+
+
+.change_slider .slider_heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #373e98;
+    margin-top: 20px;
+}
+
+.change_slider .slider_heading:after{
+    content: '';
+    display: block;
+    margin: 7px auto 40px;
+    border-bottom: 7px solid #373e98;
+    border-radius: 50%;
+    width: 60%;
+}
+
+.change_slider input {
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.change_slider input[type=file]::-ms-browse {
+    color: #fff;
+    background-color: #f16775;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.change_slider input[type=file]::-webkit-file-upload-button {
+    color: #fff;
+    background-color: #f16775;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.change_slider input[type=file]::file-selector-button {
+    color: #fff;
+    background-color: #f16775;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.change_slider .Update_btn{
+    display: block;
+    margin: 35px auto 0;
+    color: #fff;
+    background-color: #2a2a2a;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 5px 30px;
+    border: 2px solid rgb(42, 42, 42);
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.change_slider .Update_btn:hover{
+    background-color: rgb(42, 42, 42, 0.2);
+    color: rgb(42, 42, 42);
+}
+
+
+/* Updated Logo Image Section Start */
+.updated-slider_image .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.updated-slider_image .img-overlay{
+    position: relative;
+    width: fit-content;
+    margin: 10px
+}
+
+.delete_img-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-bottom-left-radius: 50%;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.updated_slider-thumb{
+    width: 230px;
+    cursor: pointer;
+}
+
+
+
+.img-overlay:hover .delete_img-button{
+    opacity: 1;
+}
+/* Updated Logo Image Section Ends */

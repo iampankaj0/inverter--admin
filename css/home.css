@@ -1,0 +1,311 @@
+
+
+/* Electric Blue: #373e98
+
+Hot Pink: #f16775
+
+Shocking Yellow: #fee36e
+
+Chartreuse-ish: #ceb92c
+
+Darkest Gray: #2a2a2a */
+
+
+
+
+
+
+.home-content-section .hero-container{
+    margin-top: 30px;
+}
+
+.home-content-section .hero-container .card{
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 6px 6px 10px 7px rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.home-content-section .hero-container .total-posts{
+    background-color: #fee36e;
+    color: #fff;
+}
+
+.home-content-section .hero-container .total-battery{
+    background-color: #373e98;
+    color: #fff;
+}
+
+.home-content-section .hero-container .total-inverter{
+    background-color: #f16775;
+    color: #fff;
+}
+
+.home-content-section .hero-container .total-posts .top,
+.home-content-section .hero-container .total-battery .top,
+.home-content-section .hero-container .total-inverter .top{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-content-section .hero-container .total-posts .top span:first-child,
+.home-content-section .hero-container .total-battery  .top span:first-child,
+.home-content-section .hero-container .total-inverter .top span:first-child{
+    font-weight: 700;
+}
+
+
+.home-content-section .hero-container .total-posts .top span:last-child,
+.home-content-section .hero-container .total-battery  .top span:last-child,
+.home-content-section .hero-container .total-inverter .top span:last-child{
+    color: green;
+    font-weight: 900;
+}
+
+.home-content-section .hero-container .total-posts .medium,
+.home-content-section .hero-container .total-battery .medium,
+.home-content-section .hero-container .total-inverter .medium{
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+
+.home-content-section .hero-container .total-posts .see_all,
+.home-content-section .hero-container .total-battery .see_all,
+.home-content-section .hero-container .total-inverter .see_all{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+.home-content-section .hero-container .total-posts .see_all span>i{
+    color: #373e98;
+}
+.home-content-section .hero-container .total-battery .see_all span>i{
+    color: #f16775;
+}
+.home-content-section .hero-container .total-inverter .see_all span>i{
+    color: #fee36e;
+}
+
+
+.home-content-section .hero-container .total-posts .see_all span>a{
+    color: #373e98;
+    text-decoration: none;
+    border-bottom: 1px solid #373e98;
+}
+
+.home-content-section .hero-container .total-posts .see_all span>a:hover{
+    color: #f16775;
+    border-bottom: 1px solid #f16775;
+}
+
+
+.home-content-section .hero-container .total-battery .see_all span>a{
+    color: #f16775;
+    text-decoration: none;
+    border-bottom: 1px solid #f16775;
+}
+
+.home-content-section .hero-container .total-battery .see_all span>a:hover{
+    color: #fee36e;
+    border-bottom: 1px solid #fee36e;
+}
+
+
+.home-content-section .hero-container .total-inverter .see_all span>a{
+    color: #fee36e;
+    text-decoration: none;
+    border-bottom: 1px solid #fee36e;
+}
+
+.home-content-section .hero-container .total-inverter .see_all span>a:hover{
+    color: #373e98;
+    border-bottom: 1px solid #373e98;
+}
+
+
+div.seprator{
+    border-top: 10px solid #d8d8d8;
+    margin: 70px 0;
+    border-radius: 50%;
+}
+
+.counter-visitors{
+    display: flex;
+    justify-content: center;
+}
+
+.counter-visitors .card{
+    box-shadow: 6px 6px 10px 7px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    min-width: 700px;
+}
+
+.counter-visitors .card h2{
+    font-size: 45px;
+    margin-bottom: 0;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.counter-visitors .card h2 span:first-child{
+    color: #2a2a2a
+}
+
+.counter-visitors .card h2 span:first-child{
+    color: #f16775
+}
+
+.counter-visitors .card h2 span:last-child i{
+    color: green
+}
+
+.counter-visitors .card h2 span:last-child{
+    color: #373e98
+}
+
+
+/* Data Table Start */
+.data-table_home table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.data-table_home table th{
+    font-weight: 900;
+    padding: 15px;
+    font-size: 20px;
+}
+  
+.data-table_home th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.data-table_home table td img.product_img{
+    width: 200px;
+}
+
+.data-table_home table td p.status{
+    padding: 4px 8px;
+    width: fit-content;
+    border-radius: 25px;
+    font-weight: 900;
+}
+
+.data-table_home table td p.status.active{
+    background-color: #373e98;
+    color: #fff;
+}
+.data-table_home table td p.status.inactive{
+    background-color: #f16775;
+    color: #fff;
+}
+
+.data-table_home table td .action_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-table_home table td .action_btn>button{
+    padding: 5px 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.data-table_home table td .action_btn>button>span{
+    margin-right: 5px;
+}
+
+.data-table_home table td .action_btn .edit_btn{
+    color: #fff;
+    background-color: #ceb92c;
+    font-weight: 900;
+}
+
+.data-table_home table td .action_btn .edit_btn:hover{
+    background-color: #2a2a2a;
+    box-shadow: 0 0 14px -3px #2a2a2a;
+}
+
+.data-table_home table td .action_btn .delete_btn{
+    color: #fff;
+    background-color: red;
+    font-weight: 900;
+}
+
+.data-table_home table td .action_btn .delete_btn:hover{
+    background-color: #2a2a2a;
+    box-shadow: 0 0 14px -3px #2a2a2a;
+}
+
+/* Data Table Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA Quries Start */
+/* MEDIA Quries Start */
+/* MEDIA Quries Start */
+
+@media screen and (max-width: 767px) {
+    .main-content-sec .row .col-md-4{
+        margin-top: 40px;
+    }
+
+    .counter-visitors .card {
+        min-width: 575px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .counter-visitors .card {
+        min-width: auto;
+    }
+
+    .counter-visitors .card h2{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .counter-visitors .card h2 span{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+    }
+}
+
+/* MEDIA Quries Ends */
+/* MEDIA Quries Ends */
+/* MEDIA Quries Ends */

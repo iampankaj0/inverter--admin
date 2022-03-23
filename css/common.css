@@ -1,0 +1,167 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('../images/Spinner.gif') no-repeat center;
+    z-index: 999;
+}
+
+
+input:focus{
+    box-shadow: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+
+.main-nav-section{
+    height: 50px;
+}
+
+.main-nav-section .navbar_top .button{
+    border: 1pc solid red;
+}
+
+
+
+
+/* .main-content-sec{
+    display: flex;
+} */
+
+/* .main-content-sec .sidebar-sec{
+    height: calc(100vh - 50px);
+}
+.main-content-sec .content-sec{
+    height: calc(100vh - 50px);
+} */
+
+
+div.seprator {
+    border-top: 10px solid #d8d8d8;
+    margin: 70px 0;
+    border-radius: 50%;
+}
+
+
+
+hr.seprator{
+    border-color: #d8d8d8;
+    margin: 4rem 6px;
+}
+
+
+.main-content-sec .login-details .avatar-name {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.main-content-sec .login-details .avatar-name img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    box-shadow: 1px -1px 17px 2px #fff;
+}
+
+.main-content-sec .login-details .avatar-name .name{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.main-content-sec .login-details .logout_button{
+    display: block;
+    margin: 3rem auto 0;
+    color: #000;
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.main-content-sec .login-details .logout_button:hover{
+    background-color: rgba(255,255,255, 0.2);
+    color: #fff;
+}
+
+
+.btn:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.main-content-sec .nav-tags{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 70px; */
+}
+.main-content-sec .nav-tags .close-nav-btn{
+    font-size: 30px;
+    color: #fff!important;
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+.main-content-sec .nav-tags .close-nav-btn:hover{
+    color: #999;
+    transition: .5s;
+}
+.main-content-sec .nav-tags a{
+    display: block;
+    margin-top: 30px;
+    padding-left: 20px;
+    color: #888;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.main-content-sec .nav-tags a:hover{
+    /* color: #fff; */
+    color: #dcca87;
+    transition: .5s;
+    text-decoration: none;
+}
+
+
+.home-content-section{
+    width: 100%;
+}
+
+.hero-container{
+    margin: 0 40px;
+}
+
+
+@media screen and (max-width: 991px) {
+    .main-content-sec .nav-tags{
+        width: 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .hero-container{
+        margin: 0 15px;
+    }
+}

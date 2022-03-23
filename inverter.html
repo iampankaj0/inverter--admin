@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload stylesheet" as="style" href="./css/bootstrap.min.css">
+    <link rel="preload stylesheet" as="style" href="./css/common.css">
+    <link rel="preload stylesheet" as="style" href="./css/inverter.css">
+    <link rel="preload stylesheet" as="style"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <title>Admin - Inverter & Battery</title>
+    <link rel="shortcut icon" href="./images/fav-ico/favicon.png" type="image/x-icon">
+</head>
+
+<body onload="preLoaderFunction()">
+
+    <div class="loading"></div>
+
+
+
+    <section class="main-nav-section">
+        <div class="navbar_top">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between bg-light">
+                <a class="navbar-brand" href="./index.html">Inverter</a>
+                <button type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation"
+                    onclick="openNav()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+    </section>
+
+    <section class="main-content-sec">
+        <div class="sidebar-sec">
+            <div class="nav-tags" id="navbar-links">
+                <button class="btn close-nav-btn" onclick="closeNav()">x</button>
+                <a href="./index.html"> <span class="mr-1"><i class="fa-solid fa-house"></i></span> Home</a>
+                <a href="./logo.html"><span class="mr-1"><i class="fa-brands fa-reddit"></i></span> Change Logo</a>
+                <a href="slider.html"><span class="mr-1"> <i class="fa fa-sliders" aria-hidden="true"></i> </span>
+                    Change Slider</a>
+                <a href="inverter.html"><span class="mr-1"><i class="fa-solid fa-warehouse"></i></span> Inverter</a>
+                <a href="battery.html"><span class="mr-1"><i class="fa-solid fa-car-battery"></i></span> Battery</a>
+                <a href="offer.html"><span class="mr-1"><i class="fa-brands fa-buffer"></i></span> Offter</a>
+                <a href="about.html"><span class="mr-1"><i class="fa-solid fa-car-battery"></i></span> About Us</a>
+
+                <hr class="seprator">
+
+                <div class="login-details">
+                    <div class="avatar-name">
+                        <div>
+                            <img src="./images/slider3.webp" alt="avatar">
+                        </div>
+                        <div>
+                            <p class="name">Pankaj Yadav</p>
+                        </div>
+                    </div>
+                    <button type="button" class="logout_button btn">Logout</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Add Inverter Start -->
+    <section class="add_inverter-section">
+        <div class="hero-container">
+            <h1 class="heading">Add Inverters</h1>
+        </div>
+    </section>
+    <!-- Add Inverter Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+
+    <script>
+        var preloader = document.getElementById('loading');
+        function preLoaderFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("navbar-links").style.width = "300px";
+        }
+        function closeNav() {
+            document.getElementById("navbar-links").style.width = "0";
+        }
+    </script>
+
+</body>
+
+</html>
