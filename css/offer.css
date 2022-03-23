@@ -8,7 +8,8 @@ Chartreuse-ish: #ceb92c
 
 Darkest Gray: #2a2a2a */
 
-.add_inverter-section .heading{
+
+.add_offer-section .heading{
     text-align: center;
     font-size: 25px;
     font-weight: 900;
@@ -16,7 +17,7 @@ Darkest Gray: #2a2a2a */
     margin-top: 20px;
 }
 
-.add_inverter-section .heading:after{
+.add_offer-section .heading:after{
     content: '';
     display: block;
     margin: 7px auto 40px;
@@ -50,46 +51,46 @@ Darkest Gray: #2a2a2a */
 
 /* Inverter Table Css Start */
 /* Data Table Start */
-.data-table_inverter table{
+.data-table_offers table{
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
 }
 
-.data-table_inverter table th{
+.data-table_offers table th{
     font-weight: 900;
     padding: 15px;
     font-size: 20px;
 }
   
-.data-table_inverter th, td {
+.data-table_offers th, td {
     text-align: left;
     padding: 8px;
     border: 1px solid #ddd;
 }
 
-.data-table_inverter table td img.product_img{
+.data-table_offers table td img.product_img{
     width: 200px;
 }
 
-.data-table_inverter table td p.description{
+.data-table_offers table td p.description{
     min-width: 500px;
     margin: 0;
 }
 
-.data-table_inverter table td p.prod_title-table{
+.data-table_offers table td p.prod_title-table{
     min-width: 200px;
     margin: 0;
 }
 
-.data-table_inverter table td .action_btn{
+.data-table_offers table td .action_btn{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.data-table_inverter table td .action_btn>button{
+.data-table_offers table td .action_btn>button{
     padding: 5px 20px;
     border: none;
     margin: 10px;
@@ -97,28 +98,28 @@ Darkest Gray: #2a2a2a */
     display: flex;
 }
 
-.data-table_inverter table td .action_btn>button>span{
+.data-table_offers table td .action_btn>button>span{
     margin-right: 5px;
 }
 
-.data-table_inverter table td .action_btn .edit_btn{
+.data-table_offers table td .action_btn .edit_btn{
     color: #fff;
     background-color: #ceb92c;
     font-weight: 900;
 }
 
-.data-table_inverter table td .action_btn .edit_btn:hover{
+.data-table_offers table td .action_btn .edit_btn:hover{
     background-color: #2a2a2a;
     box-shadow: 0 0 14px -3px #2a2a2a;
 }
 
-.data-table_inverter table td .action_btn .delete_btn{
+.data-table_offers table td .action_btn .delete_btn{
     color: #fff;
     background-color: red;
     font-weight: 900;
 }
 
-.data-table_inverter table td .action_btn .delete_btn:hover{
+.data-table_offers table td .action_btn .delete_btn:hover{
     background-color: #2a2a2a;
     box-shadow: 0 0 14px -3px #2a2a2a;
 }

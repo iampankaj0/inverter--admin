@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload stylesheet" as="style" href="./css/bootstrap.min.css">
     <link rel="preload stylesheet" as="style" href="./css/common.css">
-    <link rel="preload stylesheet" as="style" href="./css/home.css">
+    <link rel="preload stylesheet" as="style" href="./css/offer.css">
     <link rel="preload stylesheet" as="style"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
@@ -48,7 +48,7 @@
                 <a href="inverter.html"><span class="mr-1"><i class="fa-solid fa-warehouse"></i></span> Inverter</a>
                 <a href="battery.html"><span class="mr-1"><i class="fa-solid fa-car-battery"></i></span> Battery</a>
                 <a href="offer.html"><span class="mr-1"><i class="fa-brands fa-buffer"></i></span> Offter</a>
-                <a href="about.html"><span class="mr-1"><i class="fa-solid fa-car-battery"></i></span> About Us</a>
+                
 
                 <hr class="seprator">
 
@@ -61,13 +61,10 @@
                             <p class="name">Pankaj Yadav</p>
                         </div>
                     </div>
-                    <button type="button" class="logout_button btn">Logout</button>
+                    <a href="./login.html" type="button" class="logout_button btn">Logout</a>
                 </div>
 
             </div>
-        </div>
-        <div class="home-content-section mt-2">
-            hello World!
         </div>
     </section>
 
@@ -83,7 +80,490 @@
 
 
 
+    <!-- Add Offers Start -->
+    <section class="add_offer-section">
+        <div class="hero-container">
+            <h1 class="heading">Add Offer's Products</h1>
 
+            <div class="add-offer_form">
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="product_title">Product Title</label>
+                            <input type="text" class="form-control" id="product_title"
+                                placeholder="Enter Product Title">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="input_price">Price (Rs)</label>
+                            <input type="text" class="form-control" id="input_price" placeholder="Enter Product Price">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="input_image">Product Image</label>
+                            <input type="file" class="form-control" id="input_image" placeholder="Pick An Image">
+                        </div>
+                    </div>
+                    <div class="form-group" id="main">
+                        <label for="input_description">Product Description</label>
+                        <textarea rows="8" type="text" class="form-control" id="input_description"
+                            placeholder="Product Description"> </textarea>
+                    </div>
+                    <button type="submit" class="btn submit_form-btn">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Add Offers Ends -->
+
+
+    <div class="hero-container">
+        <div class="seprator"></div>
+    </div>
+
+
+
+
+    <!-- All Added Offers List Table Start -->
+    <section class="data-table_offers">
+        <div class="hero-container">
+            <div style="overflow-x:auto;">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Product Image</th>
+                        <th>Product Name</th>
+                        <th>Price (Rs.)</th>
+                        <th>description</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <img class="product_img" src="./images/inverter.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <img class="product_img" src="./images/inverter-2.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <img class="product_img" src="./images/inverter-3.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <img class="product_img" src="./images/inverter-4.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <img class="product_img" src="./images/combo-1.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <img class="product_img" src="./images/combo-2.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <img class="product_img" src="./images/combo-3.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <img class="product_img" src="./images/combo-4.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>
+                            <img class="product_img" src="./images/combo-5.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>
+                            <img class="product_img" src="./images/combo-6.jpg" alt="product-img">
+                        </td>
+                        <td>
+                            <p class="prod_title-table">
+                                Inverter Battery (COMBO)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 product_price"> 5730 </p>
+                        </td>
+                        <td>
+                            <p class="description">
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including
+                                versions of Lorem Ipsum.
+                            </p>
+                        </td>
+                        <td>
+                            <div class="action_btn">
+                                <button class="edit_btn"> <span> <i class="fa-solid fa-pen-to-square"></i> </span>
+                                    Edit</button>
+                                <button class="delete_btn"> <span> <i class="fa-solid fa-trash-can"></i> </span>
+                                    Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center mt-4">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </section>
+    <!-- All Added Offers List Table Ends -->
 
 
 
