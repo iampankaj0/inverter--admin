@@ -24,3 +24,22 @@ Darkest Gray: #2a2a2a */
     border-radius: 50%;
     width: 60%;
 }
+
+.submit_form-btn{
+    display: block;
+    margin: 35px auto 0;
+    color: #fff;
+    background-color: #2a2a2a;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 5px 30px;
+    border: 2px solid rgb(42, 42, 42);
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.submit_form-btn:hover{
+    background-color: rgba(42, 42, 42, 0.4);
+    color: #000;
+}
