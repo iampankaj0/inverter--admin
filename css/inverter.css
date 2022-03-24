@@ -123,5 +123,19 @@ Darkest Gray: #2a2a2a */
     box-shadow: 0 0 14px -3px #2a2a2a;
 }
 
+
+.data-table_inverter table td .product_price{
+    display: flex;
+    align-items: center;
+    color: #f16775;
+    font-weight: 900;
+}
+
+.data-table_inverter table td .product_price>span{
+    color: #666;
+    font-weight: 100;
+    margin-right: 7px;
+    text-decoration: line-through;
+}
 /* Data Table Ends */
 /* Inverter Table Vss Ends */

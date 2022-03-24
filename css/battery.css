@@ -84,6 +84,20 @@ Darkest Gray: #2a2a2a */
     margin: 0;
 }
 
+.data-table_battery table td p.product_price{
+    display: flex;
+    align-items: center;
+    color: #f16775;
+    font-weight: 900;
+}
+
+.data-table_battery table td p.product_price>span{
+    margin-right: 7px;
+    text-decoration: line-through;
+    color: #777;
+    font-weight: 100;
+}
+
 .data-table_battery table td .action_btn{
     display: flex;
     align-items: center;
